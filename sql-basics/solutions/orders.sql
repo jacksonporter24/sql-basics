@@ -1,4 +1,4 @@
-/* PROBLEM 1 */
+-- PROBLEM 1
 CREATE TABLE orders(
 	order_id SERIAL PRIMARY KEY,
   person_id INTEGER,
@@ -7,7 +7,7 @@ CREATE TABLE orders(
   quanity INTEGER NOT NULL
 );
 
-/* PROBLEM 2 */
+-- PROBLEM 2
 INSERT INTO orders (person_id, product_name, product_price, quanity)
 VALUES (1, 'cheesburger', 12, 1),
 (1, 'hamburger', 11, 1),
@@ -15,16 +15,16 @@ VALUES (1, 'cheesburger', 12, 1),
 (4, 'salad', 9, 1),
 (4, 'chocolate shake', 4, 1);
 
-/* PROBLEM 3 */
+-- PROBLEM 3
 SELECT * FROM orders;
 
-/* PROBLEM 4 */
+-- PROBLEM 4
 SELECT SUM(quanity) FROM orders;
 
-/* PROBLEM 5 */
+-- PROBLEM 5
 SELECT SUM(product_price) FROM orders;
 
-/* PROBLEM 6 */
+-- PROBLEM 6
 SELECT SUM(product_price * quanity) 
 FROM orders 
 WHERE person_id = 4;
