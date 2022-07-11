@@ -1,14 +1,13 @@
-/* #1 */
-SELECT first_name, last_name FROM employee WHERE city = 'Calgary';
+/* PROBLEM 1 */
 
-/* #2 */
-SELECT MAX(birth_date) from employee;
 
-/* #3 */
-SELECT MIN(birth_date) from employee;
+/* PROBLEM 2 */
 
-/* #4 */
-SELECT * FROM employee WHERE reports_to = 2;
 
-/* #5 */
-SELECT COUNT(*) FROM employee WHERE city = 'Lethbridge';
+/* PROBLEM 3 */
+
+
+/* PROBLEM 4 */
+
+
+/* PROBLEM 5 */
